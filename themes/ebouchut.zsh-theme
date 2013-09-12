@@ -44,4 +44,5 @@ ${cmd_status} '
 
 
 # Right prompt when in a git repo:  rvm_config ±‹branch_name clean_or_dirty› status(ahead) [short_sha]
-RPROMPT='$(~/.rvm/bin/rvm-prompt) $(git_prompt_info)$(git_prompt_status)$(git_prompt_ahead)$(git_prompt_short_sha)'
+#RPROMPT='$(~/.rvm/bin/rvm-prompt) $(git_prompt_info)$(git_prompt_status)$(git_prompt_ahead)$(git_prompt_short_sha)'
+RPROMPT='$(git_prompt_info)$(git_prompt_status)$(git_prompt_ahead)$(git_prompt_short_sha)'
