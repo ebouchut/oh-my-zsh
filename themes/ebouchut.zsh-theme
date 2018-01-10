@@ -34,13 +34,12 @@ ZSH_THEME_GIT_PROMPT_SHA_AFTER="%{$reset_color%}]"
 local username="%{$fg_bold[green]%}%n%{$reset_color%}"
 local hostname="%{$fg_bold[magenta]%}%m%{$reset_color%}"
 local current_dir="%{$fg_bold[blue]%}%~%{$reset_color%}"
-local cmd_status="%(?,%{$fg_bold[green]%}☺%{$reset_color%},%{$fg_bold[red]%}☹%{$reset_color%})"
 
 
 # Left prompt: username@hostname:current_directory
 PROMPT='
 $username@$hostname:$current_dir 
-${cmd_status} '
+ '
 
 
 # Right prompt when in a git repo:  rvm_config ±‹branch_name clean_or_dirty› status(ahead) [short_sha]
