@@ -25,8 +25,8 @@ ZSH_THEME_GIT_PROMPT_UNMERGED="%{$fg_bold[cyan]%}═%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg_bold[green]%}✭%{$reset_color%}"
 
 # when ahead
-ZSH_THEME_GIT_PROMPT_AHEAD="%{$fg_bold[red]%}(↑)%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_BEHIND="%{$fg_bold[red]%}(↓)%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_AHEAD="%{$fg_bold[red]%}(↑)%{$reset_color%}"
 
 # short_sha
 ZSH_THEME_GIT_PROMPT_SHA_BEFORE=" %{$reset_color%}["
